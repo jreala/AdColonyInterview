@@ -1,0 +1,6 @@
+C:\Users\ealaja\Source\Repos\AdColony\Dates\bin\Debug\Dates.exe.config
+C:\Users\ealaja\Source\Repos\AdColony\Dates\bin\Debug\Dates.exe
+C:\Users\ealaja\Source\Repos\AdColony\Dates\bin\Debug\Dates.pdb
+C:\Users\ealaja\Source\Repos\AdColony\Dates\obj\Debug\Dates.csprojResolveAssemblyReference.cache
+C:\Users\ealaja\Source\Repos\AdColony\Dates\obj\Debug\Dates.exe
+C:\Users\ealaja\Source\Repos\AdColony\Dates\obj\Debug\Dates.pdb

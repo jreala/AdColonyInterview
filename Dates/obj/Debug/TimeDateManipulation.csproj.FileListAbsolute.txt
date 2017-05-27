@@ -1,0 +1,5 @@
+C:\Users\ealaja\Source\Repos\TimeDateManipulation\TimeDateManipulation\bin\Debug\TimeDateManipulation.exe.config
+C:\Users\ealaja\Source\Repos\TimeDateManipulation\TimeDateManipulation\bin\Debug\TimeDateManipulation.exe
+C:\Users\ealaja\Source\Repos\TimeDateManipulation\TimeDateManipulation\bin\Debug\TimeDateManipulation.pdb
+C:\Users\ealaja\Source\Repos\TimeDateManipulation\TimeDateManipulation\obj\Debug\TimeDateManipulation.exe
+C:\Users\ealaja\Source\Repos\TimeDateManipulation\TimeDateManipulation\obj\Debug\TimeDateManipulation.pdb
