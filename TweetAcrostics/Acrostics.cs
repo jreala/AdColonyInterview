@@ -12,7 +12,7 @@ namespace TweetAcrostics
         {
             foreach (var line in tweets)
             {
-                var sentence = line.Split(' ');
+                var sentence = line.ToLower().Split(' ');
                 if (sentence.Length < 4)
                 {
                     continue;

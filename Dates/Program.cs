@@ -1,11 +1,9 @@
 ﻿using System;
 
-namespace TimeDateManipulation
+namespace Dates
 {
     class Program
     {
-        private const string UtcMinus2 = "UTC-02";
-
         static void Main(string[] args)
         {
             var now = DateTime.Now;
@@ -14,13 +12,15 @@ namespace TimeDateManipulation
             var daySuffix = GetSuffix(now.Day);
             var twoYearsThirtyOneDaysFromNow = now.AddYears(2).AddDays(31).ToString($"dddd MMMM d{daySuffix} yyyy");
             
-            var timeZoneinfo = TimeZoneInfo.FindSystemTimeZoneById(UtcMinus2);
-            var utcMinusTwo = TimeZoneInfo.ConvertTime(now, timeZoneinfo);
-            
             Console.WriteLine($"Current Date: {dateLong}");
             Console.WriteLine($"Thirty One Days From Now: {thirtyOneDaysFromNow}");
             Console.WriteLine($"Two Years and Thirty One Days From Now: {twoYearsThirtyOneDaysFromNow}");
-            Console.WriteLine($"Time in UTC-2: {utcMinusTwo} {timeZoneinfo.StandardName}");
+
+            foreach (var timezone in TimeZoneInfo.GetSystemTimeZones())
+            {
+                Console.WriteLine($"Time in {timezone.StandardName.PadRight(35)}{TimeZoneInfo.ConvertTime(now, timezone)}");
+            }
+            
             Console.ReadLine();
         }
 
