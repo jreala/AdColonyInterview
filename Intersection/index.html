@@ -8,6 +8,26 @@
 </head>
 
 <body>
+<div> Rectangle 1: 
+<form id="rectangle1form" name="rect1form">
+X: <input id="rect1x" type="number" min="0" max="500"></input>
+Y: <input id="rect1y" type="number" min="0" max="500"></input>
+Width: <input id="rect1width" type="number" min="0" max="500"></input>
+Height: <input id="rect1height" type="number" min="0" max="500"></input>
+<input type="button" onclick="form1click()" value="Create"></input>
+</form>
+</div>
+<br/>
+<div> Rectangle 2:
+<form id="rectangle2form" name="rect2form">
+X: <input id="rect2x" type="number" min="0" max="500"></input>
+Y: <input id="rect2y" type="number" min="0" max="500"></input>
+Width: <input id="rect2width" type="number" min="0" max="500"></input>
+Height: <input id="rect2height" type="number" min="0" max="500"></input>
+<input type="button" onclick="form2click()" value="Create"></input>
+</form>
+</div>
+
 <div id="intersectionCanvas"></div>
 <script src="src/Rectangle.js"></script>
 </body>
