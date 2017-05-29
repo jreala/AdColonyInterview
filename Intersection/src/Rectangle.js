@@ -1,5 +1,5 @@
 var elem = document.getElementById("intersectionCanvas");
-var params = { width: 500, height: 500 };
+var params = { width: 640, height: 480 };
 var two = new Two(params);
 two.appendTo(elem);
 
@@ -13,16 +13,10 @@ var rectangle2 = "";
 var rect2Info = "";
 
 function rectangleInfo(x, y, width, height) {
-    this.x = parseInt(x);
-    this.y = parseInt(y);
-    this.width = parseInt(width);
-    this.height = parseInt(height);
-    this.left = parseInt(x);
-    this.right = parseInt(x) + parseInt(width);
-    this.top = parseInt(y);
-    this.bottom = parseInt(y) + parseInt(height);
-    this.centerHoriz = parseInt(x) + (parseInt(width) / 2);
-    this.centerVert = parseInt(y) + (parseInt(height) / 2);
+    this.left = parseFloat(x) - (parseFloat(width) / 2);
+    this.right = parseFloat(x) + (parseFloat(width) /2);
+    this.top = parseFloat(y) - (parseFloat(height) / 2);
+    this.bottom = parseFloat(y) + (parseFloat(height) / 2);
 }
 
 function createRectangle(x, y, width, height) {
@@ -60,6 +54,7 @@ function checkIntersection() {
     if(rect1Info === "" || rect2Info === ""){
         return;
     }
+
     console.log(rect1Info);
     console.log(rect2Info);
 
@@ -87,6 +82,11 @@ function checkIntersection() {
     }
 
     if((leftCross || rightCross) && (topCross || bottomCross)) {
-        alert("Intersect");
+        rectangle1.fill = 'rgb(255, 0, 0)';
+        rectangle2.fill = 'rgb(255, 0, 0)';
+        return;
     }
+
+    rectangle1.fill = 'rgb(0, 0, 255)';
+    rectangle2.fill = 'rgb(0, 0, 255)';
 }
