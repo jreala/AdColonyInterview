@@ -36,6 +36,11 @@ function form1click() {
     rectangle1 = createRectangle(x, y, width, height);
     rect1Info = new rectangleInfo(x, y, width, height);
     two.update();
+
+    var rect1Element = document.getElementById(rectangle1.id);
+    rect1Element.addEventListener('click', function(){
+        alert("Clicked Rectangle 1!");
+    }, false);
 }
 
 function form2click() {
@@ -48,6 +53,11 @@ function form2click() {
     rectangle2 = createRectangle(x, y, width, height);
     rect2Info = new rectangleInfo(x, y, width, height);
     two.update();
+
+    var rect2Element = document.getElementById(rectangle2.id);
+    rect2Element.addEventListener('click', function(){
+        alert("Clicked Rectangle 2!");
+    }, false);
 }
 
 function checkIntersection() {
