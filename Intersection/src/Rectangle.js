@@ -55,38 +55,16 @@ function checkIntersection() {
         return;
     }
 
-    console.log(rect1Info);
-    console.log(rect2Info);
-
-    var leftCross = false;
-    var rightCross = false;
-    var topCross = false;
-    var bottomCross = false;
-
-    if(rect1Info.left >= rect2Info.left && rect1Info.left <= rect2Info.right) {
-        // R1 Left is between R2 Left and Right
-        // Intersect
-        leftCross = true;
-    }
-    if(rect1Info.right >= rect2Info.left && rect1Info.right <= rect2Info.right) {
-        // R1 Right is between R2 Left and Right
-        // Intersect
-        rightCross = true;
-    }
-    if(rect1Info.top >= rect2Info.top && rect1Info.top <= rect2Info.bottom) {
-        // Intersect
-        topCross = true;
-    }
-    if(rect1Info.bottom >= rect2Info.top && rect1Info.bottom <= rect2Info.bottom) {
-        bottomCross = true;
-    }
-
-    if((leftCross || rightCross) && (topCross || bottomCross)) {
-        rectangle1.fill = 'rgb(255, 0, 0)';
-        rectangle2.fill = 'rgb(255, 0, 0)';
+    if(rect1Info.top > rect2Info.bottom ||
+        rect1Info.bottom < rect2Info.top ||
+        rect1Info.left > rect2Info.right ||
+        rect1Info.right < rect2Info.left)
+    {
+        rectangle1.fill = 'rgb(0, 0, 255)';
+        rectangle2.fill = 'rgb(0, 0, 255)';
         return;
     }
 
-    rectangle1.fill = 'rgb(0, 0, 255)';
-    rectangle2.fill = 'rgb(0, 0, 255)';
+    rectangle1.fill = 'rgb(255, 0, 0)';
+    rectangle2.fill = 'rgb(255, 0, 0)';
 }
