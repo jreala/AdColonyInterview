@@ -107,6 +107,6 @@ function checkIntersection() {
 }
 
 function translateRectangle(rectangle) {
-    rectangle.translation.set(window.event.clientX, window.event.clientY);
+    rectangle.translation.set(event.clientX - offset.left, event.clientY - offset.top);
     two.update();
 }

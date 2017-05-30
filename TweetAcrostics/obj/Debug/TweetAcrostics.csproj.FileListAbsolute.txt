@@ -10,3 +10,9 @@ C:\Users\ealaja\Source\Repos\AdColony\TweetAcrostics\obj\Debug\TweetAcrostics.pd
 C:\Users\ealaja\Source\Repos\AdColony\TweetAcrostics\bin\Debug\TweetAcrostics.exe
 C:\Users\ealaja\Source\Repos\AdColony\TweetAcrostics\bin\Debug\TweetAcrostics.pdb
 C:\Users\ealaja\Source\Repos\AdColony\TweetAcrostics\obj\Debug\TweetAcrostics.csprojResolveAssemblyReference.cache
+D:\Code\AdColonyInterview\TweetAcrostics\bin\Debug\TweetAcrostics.exe.config
+D:\Code\AdColonyInterview\TweetAcrostics\bin\Debug\TweetAcrostics.exe
+D:\Code\AdColonyInterview\TweetAcrostics\bin\Debug\TweetAcrostics.pdb
+D:\Code\AdColonyInterview\TweetAcrostics\obj\Debug\TweetAcrostics.csprojResolveAssemblyReference.cache
+D:\Code\AdColonyInterview\TweetAcrostics\obj\Debug\TweetAcrostics.exe
+D:\Code\AdColonyInterview\TweetAcrostics\obj\Debug\TweetAcrostics.pdb

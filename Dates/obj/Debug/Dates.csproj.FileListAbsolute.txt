@@ -4,3 +4,9 @@ C:\Users\ealaja\Source\Repos\AdColony\Dates\bin\Debug\Dates.pdb
 C:\Users\ealaja\Source\Repos\AdColony\Dates\obj\Debug\Dates.csprojResolveAssemblyReference.cache
 C:\Users\ealaja\Source\Repos\AdColony\Dates\obj\Debug\Dates.exe
 C:\Users\ealaja\Source\Repos\AdColony\Dates\obj\Debug\Dates.pdb
+D:\Code\AdColonyInterview\Dates\bin\Debug\Dates.exe.config
+D:\Code\AdColonyInterview\Dates\bin\Debug\Dates.exe
+D:\Code\AdColonyInterview\Dates\bin\Debug\Dates.pdb
+D:\Code\AdColonyInterview\Dates\obj\Debug\Dates.csprojResolveAssemblyReference.cache
+D:\Code\AdColonyInterview\Dates\obj\Debug\Dates.exe
+D:\Code\AdColonyInterview\Dates\obj\Debug\Dates.pdb
